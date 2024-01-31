@@ -74,6 +74,18 @@ width: 350px;
 text-align: center;
 `
 
+elLink.style.cssText = `
+color: rgba(80, 80, 80, 0.50);
+text-align: center;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.6px;
+text-decoration-line: underline;
+`
+
 
 
 
@@ -81,6 +93,7 @@ text-align: center;
 elImg.src = './img/asd.png'
 elTitle.textContent = 'The Grand Creator!'
 eltext4.textContent = 'Cheers.'
+elLink.textContent = 'www.ehsan.cc'
 eltext_3.textContent = 'You can follow me in social media and contact me for collaboration.'
 eltext_1.textContent = '22 / Male'
 eltext_2.textContent = 'Hey there, stranger! I’m Ehsan. A creative UX Designer working from home. I hope this pack of user persona profiles and personality cards prove useful for you and your users.'
